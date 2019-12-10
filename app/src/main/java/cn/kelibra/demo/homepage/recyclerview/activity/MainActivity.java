@@ -45,11 +45,11 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.Pager
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        data.add("列表1");
-        data.add("列表2");
-        data.add("列表3");
-        data.add("列表4");
-        data.add("列表5");
+        data.add("列表 1");
+        data.add("列表 2");
+        data.add("列表 3");
+        data.add("列表 4");
+        data.add("列表 5");
         rv = (OutRecyclerView) findViewById(R.id.rv);
         rootView = findViewById(R.id.rl_root);
         virtualLayoutManager = new VirtualLayoutManager(this);

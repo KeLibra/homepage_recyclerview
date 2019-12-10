@@ -37,7 +37,7 @@ public class PagerListAdapter extends RecyclerView.Adapter {
 
     @Override
     public int getItemCount() {
-        return 15;
+        return 31;
     }
 
     private class ViewHolder extends RecyclerView.ViewHolder {
